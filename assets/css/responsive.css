@@ -1,0 +1,299 @@
+@media screen and (max-width: 600px){
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  .fullscreen_nav {
+    display: none;
+  }
+  #hamburger-icon {
+    display: inline;
+  }
+  #welcome > .logo {
+    height: 40%;
+  }
+  #welcome > h1 {
+    margin: 0;
+      margin-top: 50px;
+    padding: 0;
+    font-size: 35px;
+  }
+  #about {
+    display: inline;
+    max-width: 100%;
+  }
+  .photo_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .photo {
+    margin: 10px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .description {
+    color: rgba(0,0,0,1);
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
+    padding: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+  }
+  .bq3 { 
+    width: 200px; 
+    padding-left: 63px; 
+    line-height: 18px; 
+    color: #575757; 
+    text-align: center;
+  }
+  .bq3 p { 
+    text-align: center;
+    padding-right: 35px; 
+    line-height: 18px; 
+    bottom right no-repeat; 
+    padding-bottom: 15px; 
+    color: #333; 
+    font-size: 13px; 
+  }
+  .author {
+    margin: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .second_hr {
+    margin-top: 90px;
+  }
+  #cooperation {
+    padding-top: 20px;
+    font-size: 5px;
+  }
+  #cooperation > p{
+    margin: 15px;
+    font-size: 14px;
+  }
+  .cooperation_list {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    font-size: 14px;
+  }
+  .cooperation_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-top: 20px;
+  }
+  #column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+    width: 50%;
+    margin-top: 15px;
+  }
+  #column > h1{
+    text-align: center;
+    padding-top: 20px;
+
+    font-size: 16px;
+  }
+  #planzywieniowy_btn > img {
+    height: 50px;
+    width: 50px;
+  }
+  #plantreningowy_btn > img {
+    height: 50px;
+    width: 50px;
+  }
+  #konsultacje_btn > img {
+    height: 50px;
+    width: 50px;
+  }
+  #treningipersonalne_btn > img {
+    height: 50px;
+    width: 50px;
+  }
+  #column > .circle {
+    width: 60px;
+    height: 60px;
+  }
+  .third_hr {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .planzywieniowy-first-list, .planzywieniowy-second-list {
+    padding: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+
+    font-size: 15px;
+  }
+  .ofert_flex {
+    padding-top: 30px;
+  }
+  .ofert_column > p {
+    font-size: 15px;
+  }
+  .ofert_column > p {
+    font-size: 15px;
+  }
+  .ofert_container2 > p {
+    padding-top: 95px;
+    font-size: 15px;
+  }
+  #cena_column1 {
+    margin-top: 73px;
+  }
+  #cena_column2 {
+    margin-top: 20px;
+  }
+  #wariant {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ofert_container > h1 {
+    font-size: 20px;
+  }
+  .plantreningowy-list {
+    padding: 0;
+    margin: 0;
+  }
+  .konsultacje-list{
+    padding: 0;
+    margin: 0;
+  }
+  .list-right {
+    padding-left: 150px;
+    margin: 0;
+  }
+  .list-left {
+    padding-left: 10px;
+    margin: 0;    
+  }
+  #transformations {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #transformations > h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  #contact {
+    height: 100vh;
+  }
+  .photo-gallery > img {
+    width: 100px;
+    height: 100px;
+  }
+  .photo-gallery > img:hover {
+    transform:scale(1.4);
+    transition: 1s all ease-in-out;
+ }
+  .info_content {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .container {
+    padding-top: 20px;
+    width: 300px;
+  }
+  .contact_info{
+    padding-top: 50px;
+  }
+  .smart_gliwice, .smart_zabrze{
+    display: none;
+   }
+   footer > p {
+    padding-top: 60px;
+   }
+}
+@media all and (max-width: 1300px){
+  .fullscreen_nav > a {
+    font-size: 22px;
+  }
+  .section {
+   height: auto;
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+    margin: 100px;
+  }
+  .description {
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .quotedescription {
+    text-align: center;
+  }
+  .bqflex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .author {
+    margin-left: 0px;
+    text-align: center;
+  }
+  #wariant {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 180px;
+  }
+  .konsultacje-list {
+    margin-left: -140px;
+  }
+  .list-left {
+    margin-left: 10px;
+  }
+  .photo-gallery > img:hover {
+    transform:scale(1.6);
+    transition: 1s all ease-in-out;
+ }
+  .contact_info {
+    width: 60%;
+  }
+  .smart_zabrze {
+    display: none;
+  }
+  .smart_gliwice {
+    padding-right: 40px;
+  }
+  .smart_gliwice > iframe {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media all and (max-width: 900px){
+  .fullscreen_nav > a {
+    font-size: 14px;
+  }
+  #cooperation {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .smart_gliwice {
+    display: none;
+  }
+  footer {
+    padding-top: 30px;
+  }
+}
+

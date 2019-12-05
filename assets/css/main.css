@@ -1,0 +1,471 @@
+
+body {
+  background-color: #FFFFFF;
+  color: white;
+}
+
+header {
+  height: 100vh;
+  background-size: cover;
+}
+hr{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  
+/*-------------------------------- FULL SCREEN NAV --------------------------------- */
+.fullscreen_nav {
+  float: right;
+  margin: 0px 30px 0 0;
+}
+.fullscreen_nav > a {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 10px;
+
+  color: rgba(0,0,0,0.80);
+  font-size: 19px;
+  font-weight: 530;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.fullscreen_nav > a:hover{
+    color: rgba(0,0,0,1);
+}
+#myNav {
+  display: inline;
+}
+#hamburger-icon {
+  display: none;
+}
+/*-------------------------------- RWD NAV --------------------------------- */
+
+#hamburger-icon {
+    position: absolute;
+    top: 20px;
+    right: 45px; 
+    font-size:30px;
+    color: #000;
+    cursor:pointer;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.97);
+    overflow-y: hidden;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: -2px;
+    right: 36px;
+    font-size: 50px;
+}
+.logo-menu{
+  height: 96px;
+  border-radius: 99px;
+  margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------------------- */
+/*------------------------------ WELCOME --------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+#welcome {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+
+}
+
+#welcome > h1 {
+  margin: 0;
+    margin-top: 50px;
+  padding: 0;
+  font-size: 55px;
+  color: black;
+}
+
+#welcome > .logo {
+  height: 60%;
+}
+#begin {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+#start {
+  margin-top: 0px;
+  font-size: 55px;
+  color: black;
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1.5px;
+ -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#welcome > #begin:hover {
+  -webkit-animation: bounce 2s;
+  animation: bounce 2s;
+  cursor: pointer;
+}
+ 
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 45px;
+
+  margin-top: 0px;
+  font-size: 55px;
+  color: black;
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1.5px;
+ -webkit-text-stroke-color: black;
+}
+ .back-to-top:hover {
+  -webkit-animation: bounce 2s;
+  animation: bounce 2s;
+  cursor: pointer;
+}
+/* ---------------------------------------------------------------------- */
+/*------------------------------ SEKCJE--------------------------------- */
+/* ---------------------------------------------------------------------- */
+.section{
+  height: 100vh;
+}
+.bold {
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+/* --------------------------------O MNIE-------------------------------- */
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  color: rgba(0,0,0,1);
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+  padding-right: 55px;
+  padding-top: 100px;
+}
+.photo {
+  margin: 150px;
+  height: 400px;
+  border-radius: 50%;
+}
+.bq3 { 
+  width: 400px; 
+  background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; 
+  padding-left: 55px; 
+  line-height: 18px; 
+  color: #575757; 
+  text-align: center;
+}
+.bq3 p { 
+  padding-right: 35px; 
+  line-height: 18px; 
+  background: url('http://i48.tinypic.com/eb1yrr.png')
+  bottom right no-repeat; 
+  padding-bottom: 15px; 
+  color: #333; 
+  font-size: 17px; 
+}
+.author{
+  margin-left: 350px;
+}
+/* --------------------------------WSPOLPRACA-------------------------------- */
+#cooperation {
+  color: black;
+  font-size: 18px;
+  padding-top: 100px;
+}
+.cooperation_list {
+ margin-left: 30%;
+}
+.cooperation_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 120px;
+}
+#column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 25%;
+}
+#column > .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  width: 150px;
+  height: 150px;
+  background-color: #2d84cc;
+  border: 10px solid #2d84cc;
+  border-radius: 50%; 
+}
+
+#column > img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#column > h1{
+  text-align: center;
+  padding-top: 40px;
+
+  font-size: 30px;
+}
+/* -------------------------------- OFERTA -------------------------------- */
+.ofert_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 100px;
+}
+.plan-konsultacje-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ofert_container {
+  padding-top: 100px; 
+}
+.ofert_container_width{
+  width: 50%;
+  height: 100%;
+}
+.ofert_column {
+  width: 800px;
+  height: 200px;
+}
+#ofert {
+  color: black;
+}
+.ofert_line {
+    height: 200px;
+    width: 1px;
+    border-left: 1px solid black;
+    border-color: #2d84cc;
+}
+.ofert_line_plan_konsultacje {
+    margin-top: 130px;
+    height: 200px;
+    width: 1px;
+    border-left: 1px solid black;
+    border-color: #2d84cc;
+}
+.blue {
+  color: #2d84cc;
+}
+.gratis {
+  font-size: 130%;
+  text-transform: uppercase;
+   color: red;
+}
+.cena {
+  margin-top: 70px;
+  font-size: 140%;
+}
+.cena-plantreningowy{
+  margin-top: 10px;
+}
+.ofert_container2 {
+  padding-top: 100px; 
+}
+.list-left {
+  margin-left: 220px;
+}
+.list-right {
+  margin-left: 260px;
+}
+#mozliwosci {
+  margin-top: 50px;
+}
+#wspolpraca {
+  margin-top: -40px;
+}
+#wariant {
+  margin-top: 140px;
+}
+.planzywieniowy-first-list {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.planzywieniowy-second-list {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.plantreningowy-list {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.konsultacje-list{
+  margin-top: 50px;
+  margin-left: -40px;
+}
+/* -------------------------------- TRANSFORMACJE -------------------------------- */
+#transformations > h1 {
+  margin-top: 80px;
+  text-align: center;
+
+  color: black;
+}
+#transformations > h1 {
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 70px;
+}
+.flex-cointainer {
+  margin-top: 0;
+  margin-bottom: 140px;
+}
+.transformations-flex-row-1 {
+  margin-top: 70px;
+}
+.transformations-flex-row-1, .transformations-flex-row-2, .transformations-flex-row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+.photo-gallery > img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+  transition: 1s all ease-in-out;
+ }
+.photo-gallery > img:hover {
+  transform:scale(2.3);
+  transition: 1s all ease-in-out;
+ }
+/* -------------------------------- KONTAKT -------------------------------- */
+#contact {
+  margin: 0;
+  height: 700px;
+  width: 100%;
+
+  color: white;
+  background-color: #2d84cc;
+}
+.contact_logo {
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.contact_info > h3 {
+
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+.contact_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact_info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 33%;
+  padding-top: 180px;
+  padding-left: 30px;
+}
+.padding {
+  padding-left: 45px; 
+}
+.info_content {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.info_content > a {
+  text-decoration: none;
+  color: white;
+}
+.info_content > a:hover {
+  text-decoration: none;
+  color: white;
+}
+.info_content > i {
+  padding-right: 16px;
+}
+.smart_gliwice {
+  margin-top: 80px;
+  width: 33%;
+}
+.smart_zabrze {
+  margin-top: 80px;
+  width: 33%;
+}
+.smart_zabrze > iframe {
+  margin-top: 80px;
+}
+.smart_gliwice > iframe {
+  margin-top: 80px;
+}
+/* -------------------------------- FOOTER-------------------------------- */
+footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #2d84cc;
+}
+footer > p {
+  font-size: 15px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
