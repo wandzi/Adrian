@@ -195,8 +195,6 @@ hr{
   border-radius: 50%;
 }
 .bq3 { 
-  width: 400px; 
-  background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; 
   padding-left: 55px; 
   line-height: 18px; 
   color: #575757; 
@@ -205,8 +203,6 @@ hr{
 .bq3 p { 
   padding-right: 35px; 
   line-height: 18px; 
-  background: url('http://i48.tinypic.com/eb1yrr.png')
-  bottom right no-repeat; 
   padding-bottom: 15px; 
   color: #333; 
   font-size: 17px; 
